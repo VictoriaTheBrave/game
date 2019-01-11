@@ -1,0 +1,56 @@
+.spell-modal {
+  position: fixed;
+  top: calc((100% - 600px) / 2);
+  right: calc((100% - 700px) / 2);
+  width: 700px;
+  height: 600px;
+  font-size: 3rem;
+  font-family: 'Pacifico', 'Open Sans', cursive;
+  text-align: center;
+  color: #254041;
+  background: url('./img/modal-background.png') no-repeat;
+  background-size: 700px 600px;
+}
+
+.spell-modal > p {
+  position: relative;
+  top: 5rem;
+  width: 580px;
+  height: 7.85rem;
+  line-height: 3.5rem;
+}
+
+.spell-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 580px;
+  align-content: center;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.spell-buttons button {
+  width: 240px;
+  min-height: 130px;
+  border: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 1rem;
+  font-family: 'Lobster', 'Open Sans', cursive;
+  font-size: 1.5rem;
+  background: url('./img/button.png') no-repeat;
+  background-size: 240px 130px;
+}
+
+.spell-buttons button:hover {
+  filter: saturate(200%) hue-rotate(185deg);
+}
+
+.spell-buttons button:active {
+  outline: none;
+}
+
+.spell-buttons button:focus {
+  filter: saturate(200%) hue-rotate(185deg);
+  outline: none;
+}

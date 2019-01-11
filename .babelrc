@@ -1,0 +1,20 @@
+{
+  "presets": 
+  [
+      [
+          "@babel/preset-env",
+          {
+              "targets": {
+                  "browsers": ["last 2 versions"]
+              },
+              "debug": true
+          }
+      ]
+  ],
+  "plugins": [
+    ["@babel/transform-runtime"],
+    ["wildcard", {
+      "exts": ["js", "es6", "es", "jsx", "javascript", "png", "jpg"]
+    }],
+  ]
+}
