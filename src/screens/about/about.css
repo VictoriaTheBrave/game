@@ -1,0 +1,39 @@
+.about {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #be8d8d;
+  overflow-y: scroll;
+}
+
+.about h2 {
+  position: relative;
+  width: fit-content;
+  height: 5rem;;
+  margin-bottom: 2rem;
+  border: 3px solid #254041;
+  padding: 0;
+  border-radius: 10px;
+  background: none;
+}
+
+/* .about-screenshots {
+} */
+.about img {
+  width: 90%;
+  height: 95%;
+}
+
+.about p {
+  margin-top: 3rem;
+  font-size: 3rem;
+  font-family: 'Pacifico', 'Open Sans', cursive;
+}
+
+.about article {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-family: 'Pacifico', 'Open Sans', cursive;
+}
