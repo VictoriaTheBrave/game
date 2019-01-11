@@ -7,8 +7,8 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'app.js',
-    publicPath: '/webpack-demo/',
+    filename: '[name].js',
+    publicPath: '/dist/',
   },
   module: {
     rules: [
@@ -78,6 +78,6 @@ module.exports = {
     contentBase: path.join(__dirname, 'src'),
     compress: true,
     disableHostCheck: true,
-    port: 9000,
+    port: 8000,
   },
 };
